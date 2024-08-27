@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+.neuton-extralight {
+    font-family: "Neuton", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .neuton-light {
+    font-family: "Neuton", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .neuton-regular {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .neuton-bold {
+    font-family: "Neuton", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .neuton-extrabold {
+    font-family: "Neuton", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .neuton-regular-italic {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+body {
+    
+    height: 100vh;
+    width: 100vw;
+
+    margin: 0px;
+    padding: 0px;
+
+    position: relative;
+}
+
+.indexbg {
+    height: 100vh;
+    width: 100vw;
+
+    position: absolute;
+    z-index: -2;
+
+    background-image: url(indexbg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid black;
+
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.dimmer {
+    height: 90%;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    z-index: -1;
+
+    background-color: #000000;
+    opacity: 50%;
+}
+
+.mainheader {
+    margin-left: 3em;
+}
+
+.indexheader {
+    margin-top: -28% !important;
+    font-size: 4.5em;
+
+    /** TEXT GRADIENT */
+    color: #FF2e99;
+    background-image: -webkit-linear-gradient(45deg, #FF2e99 10%, #cccccc 21%, #cc2ecc 25%, #992eff 32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.indexheader2 {
+    
+    color: #FF2e99;
+    background-image: -webkit-linear-gradient(45deg, #FF2e99 20%, #cccccc 41%, #cc2ecc 50%, #992eff 75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.indexinfo {
+    font-size: 1.5em;
+    color: #DDDDDD;
+    text-shadow: 1px 1px 2px #ff2e99, 1px 2px 1em #992eff, 1px 2px 0.2em #000000;
+}
+
+.indexbtn {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+
+    font-size: 2em !important;
+
+    border: 1px solid #992eff !important;
+
+    background-image: -webkit-linear-gradient(45deg, #992eff 80%, #cccccc 90%, #cc2ecc 99%, #FF2e99 100%) !important;
+    text-shadow: 1px 1px 2px #ff2e99, 1px 2px 1em #992eff, 1px 2px 0.2em #000000;
+
+}
+
+.fullarea {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.navbar {
+    border-bottom: 1px solid #222222;
+}
+
+.navbar-brand, .collapse {
+    margin-left: 3%;
+}
+
+.navbar-collapse, .navbar-expand-lg, .navbar{
+    background-color: #000000 !important;
+}
+
+.container-fluid {
+    height: 100%;
+    width: 95%;
+    background-color: #000000;
+
+    position: relative;
+}
+
+.img-fluid {
+    margin-left: -0.5%;
+
+    background-color: #000000;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: none;
+    z-index: 5;
+}
+
+.button-custom-color {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
